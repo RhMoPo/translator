@@ -1,6 +1,11 @@
 body {
-    font-family: Arial, sans-serif;
-  }
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  min-height: 100vh; /* Full viewport height */
+  background-color: #f0f0f0; /* Optional: background color */
+}
+
   .container {
     max-width: 600px;
     margin: 0 auto;
