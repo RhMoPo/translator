@@ -38,3 +38,19 @@ body {
     word-wrap: break-word; /* Wrap long words */
     overflow-wrap: break-word; /* Ensure long words break at character boundaries */
 }
+
+@media only screen and (max-width: 600px) {
+    .container {
+        padding: 10px;
+        border-radius: 2px;
+    }
+    textarea, button, #output {
+        width: 100%; /* Ensure full width on smaller screens */
+        font-size: 16px; /* Increase font size for better readability */
+    }
+    button {
+        padding: 12px 24px; /* Slightly larger buttons for easier interaction */
+        margin: 10px;
+    }
+    /* Adjust other elements as needed for better mobile experience */
+}
